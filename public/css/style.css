@@ -27,14 +27,15 @@ header,
 
 .cdText {
   display: inline-block;
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
   border: 2px solid #e7a61a;
   border-radius: 200px;
-  padding: 40px;
+  padding: 23px;
   text-align: center;
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-family: Great Vibes;
+  margin-top: 20px;
 }
 
 .sidenav {
@@ -71,7 +72,13 @@ header,
   margin-left: 50px;
 }
 
-/* @media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
-} */
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 2.2em !important;
+    letter-spacing: 5px !important;
+    margin-top: 50px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
