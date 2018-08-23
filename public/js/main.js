@@ -7,10 +7,7 @@ function openNav() {
         .getElementById("collapse")
         .style
         .marginLeft = "250px";
-    document
-        .getElementById("collapse2")
-        .style
-        .marginLeft = "250px";
+
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
@@ -23,10 +20,7 @@ function closeNav() {
         .getElementById("collapse")
         .style
         .marginLeft = "0";
-    document
-        .getElementById("collapse2")
-        .style
-        .marginLeft = "0";
+
     document.body.style.backgroundColor = "white";
 }
 
