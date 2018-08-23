@@ -20,16 +20,16 @@ if (counter) {
         // Display the result in the element with id="demo"
         document
             .getElementById("days")
-            .innerHTML = "<p>" + days + " days</p>";
+            .innerHTML = "<p>" + days + "</p><p> days</p>";
         document
             .getElementById("hours")
-            .innerHTML = "<p>" + hours + " hours</p>";
+            .innerHTML = "<p>" + hours + "</p><p> hours</p>";
         document
             .getElementById("minutes")
-            .innerHTML = "<p>" + minutes + " minutes</p>";
+            .innerHTML = "<p>" + minutes + " </p><p> minutes</p>";
         document
             .getElementById("seconds")
-            .innerHTML = "<p>" + seconds + " seconds</p>";
+            .innerHTML = "<p>" + seconds + " </p><p> seconds</p>";
 
         // If the count down is finished, write some text
         if (distance < 0) {

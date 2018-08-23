@@ -30,15 +30,17 @@ header,
 
 .cdText {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+   width: 150px;
+   height: 150px;
   border: 2px solid #e7a61a;
   border-radius: 200px;
-  padding: 23px;
+  padding: 40px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 2em;
   font-family: Great Vibes;
   margin-top: 20px;
+  font-weight: bold;
+  line-height: .5;
 }
 
 .sidenav {
