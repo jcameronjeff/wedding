@@ -12,7 +12,8 @@ router.get("/locations", (req, res) => {
   res.render("locations");
 });
 router.get("/hotels", (req, res) => {
-  res.render("hotels");
+
+  res.send("hotels");
 });
 
 router.get("/guestbook", (req, res) => {
@@ -21,4 +22,5 @@ router.get("/guestbook", (req, res) => {
 router.get("/registry", (req, res) => {
   res.render("registry");
 });
+
 module.exports = router;

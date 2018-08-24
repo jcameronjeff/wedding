@@ -80,20 +80,20 @@ header,
 @media screen and (max-width: 670px) {
   .cdText {
     display: inline-block;
-     width: 100px;
-     height: 100px;
+     width: 70px;
+     height: 70px;
     border: 2px solid #e7a61a;
     border-radius: 200px;
-    padding: 22px;
+    padding: 20px 10px 10px 10px;
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-family: Great Vibes;
     margin-top: 20px;
     font-weight: bold;
-    line-height: .5;
+    line-height: .25;
   }
   #headline{
-    margin-top: 25%;
+    margin-top: 30%;
   }
     
 }
